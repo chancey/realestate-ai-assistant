@@ -1,0 +1,35 @@
+{
+  "gateway": {
+    "port": 8080,
+    "skills": [
+      {
+        "id": "realestate-copywriter",
+        "path": "/skills/copywriter",
+        "enabled": true
+      },
+      {
+        "id": "realestate-social-publisher",
+        "path": "/skills/social-publisher",
+        "enabled": true
+      },
+      {
+        "id": "realestate-reply-monitor",
+        "path": "/skills/reply-monitor",
+        "enabled": true
+      },
+      {
+        "id": "realestate-calendar-scheduler",
+        "path": "/skills/calendar-scheduler",
+        "enabled": true
+      }
+    ],
+    "memory": {
+      "provider": "redis",
+      "url": "redis://redis:6379"
+    },
+    "agent": {
+      "model": "claude-sonnet-4-5-20250929",
+      "systemPrompt": "You are a professional real estate marketing assistant. Help agents create compelling property listings, manage social media presence, respond to buyer inquiries, and schedule property showings. Always comply with Fair Housing Act guidelines."
+    }
+  }
+}

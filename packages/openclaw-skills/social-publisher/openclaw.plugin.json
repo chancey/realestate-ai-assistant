@@ -1,0 +1,16 @@
+{
+  "id": "realestate-social-publisher",
+  "kind": "tool",
+  "name": "Social Media Publisher",
+  "description": "Publish content across social media platforms",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "platforms": {
+        "type": "array",
+        "items": { "type": "string", "enum": ["facebook", "instagram", "tiktok", "linkedin", "x", "youtube"] }
+      }
+    }
+  }
+}

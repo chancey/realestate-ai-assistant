@@ -1,0 +1,7 @@
+{
+  "id": "realestate-calendar-scheduler",
+  "kind": "tool",
+  "name": "Calendar Scheduler",
+  "description": "Manage agent availability and schedule showings",
+  "version": "0.1.0"
+}

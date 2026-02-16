@@ -1,0 +1,7 @@
+{
+  "id": "realestate-reply-monitor",
+  "kind": "tool",
+  "name": "Reply Monitor",
+  "description": "Monitor and classify social media replies and DMs",
+  "version": "0.1.0"
+}

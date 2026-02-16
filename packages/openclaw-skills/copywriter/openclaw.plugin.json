@@ -1,0 +1,16 @@
+{
+  "id": "realestate-copywriter",
+  "kind": "tool",
+  "name": "Real Estate Copywriter",
+  "description": "Generate marketing copy for property listings",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "defaultTone": { "type": "string", "enum": ["luxury", "family", "investment", "starter"] },
+      "defaultLanguage": { "type": "string", "default": "en" },
+      "mlsApiKey": { "type": "string" },
+      "mlsProvider": { "type": "string", "enum": ["rets", "spark", "bridge"] }
+    }
+  }
+}
