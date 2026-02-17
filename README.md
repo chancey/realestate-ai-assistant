@@ -2,6 +2,8 @@
 
 AI-powered marketing assistant for US real estate agents. Generate listing copy, publish to social media, monitor engagement, and schedule showings — all from one dashboard.
 
+![Dashboard](docs/dashboard.png)
+
 ## Features
 
 - **Content Studio** — AI-generated marketing copy (social posts, listing descriptions, email blasts, video scripts, open house flyers) with Fair Housing Act compliance, 4 tone presets, and A/B variant generation
