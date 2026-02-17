@@ -90,6 +90,43 @@ See [`.env.example`](.env.example) for all required variables:
 - Social media OAuth credentials (Facebook, Instagram, TikTok, LinkedIn, X, YouTube)
 - Google Calendar / Calendly API keys
 
+## Screenshots
+
+### Listings
+Manage properties, import from MLS, and generate marketing content per listing.
+
+![Listings](docs/listings.png)
+
+### Content Studio
+AI-powered copy generation with multiple variants, tone presets, and platform-specific formatting.
+
+![Content Studio](docs/content.png)
+
+### Social Hub
+Cross-platform post queue, scheduling, and platform connection management.
+
+![Social Hub](docs/social.png)
+
+### Inbox
+Unified inbox with AI intent classification, auto-suggested responses, and lead tracking.
+
+![Inbox](docs/inbox.png)
+
+### Calendar
+Appointment scheduling with availability detection and Google Calendar sync.
+
+![Calendar](docs/calendar.png)
+
+### Analytics
+Performance metrics, platform breakdown, and top-performing post rankings.
+
+![Analytics](docs/analytics.png)
+
+### Settings
+Profile, social media connections, calendar integration, and AI preferences.
+
+![Settings](docs/settings.png)
+
 ## Pages
 
 | Route | Description |
